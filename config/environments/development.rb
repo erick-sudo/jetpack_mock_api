@@ -18,9 +18,9 @@ Rails.application.configure do
   config.server_timing = true
 
   # Force TLS
-  config.force_ssl = true
-  config.ssl_key = Rails.root.join('config', 'ssl', 'localhost.key'),
-  config.ssl_cert = Rails.root.join('config', 'ssl', 'localhost.crt')
+  # config.force_ssl = true
+  # config.ssl_key = Rails.root.join('config', 'ssl', 'localhost.key'),
+  # config.ssl_cert = Rails.root.join('config', 'ssl', 'localhost.crt')
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
